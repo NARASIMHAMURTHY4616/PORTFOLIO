@@ -27,7 +27,7 @@ const DATA = {
       card: {
         label: 'threat-monitor.py',
         status: 'Monitoring active',
-        code: `# Narasimha IDS — Packet Monitor
+        code: `# TRINETRA IDS — Packet Monitor
 import scapy.all as scapy
 from datetime import datetime
 
@@ -55,20 +55,20 @@ scapy.sniff(prn=analyze_packet, store=0)`,
     },
     projects: [
       {
-        name: 'Narasimha IDS',
+        name: 'TRINETRA IDS',
         type: 'Security Tool',
-        status: 'active',
+        status: 'complete',
         desc: 'Rule-based intrusion detection system that monitors live network traffic, matches signatures, and generates structured incident reports. Built to understand detection logic from first principles.',
         tags: ['Python', 'Scapy', 'Linux', 'YARA'],
-        link: '#',
+        link: 'https://github.com/NARASIMHAMURTHY4616/Trinetra-IDS',
       },
       {
         name: 'Netra — Secure Code Review',
         type: 'SAST Tool',
-        status: 'active',
+        status: 'complete',
         desc: 'Static analysis tool for Python codebases that flags injection vulnerabilities, insecure patterns, and hardcoded secrets. Outputs structured SARIF reports.',
         tags: ['Python', 'AST', 'SARIF', 'CLI'],
-        link: '#',
+        link: 'https://github.com/NARASIMHAMURTHY4616/Netra-security',
       },
       {
         name: 'Threat Intelligence Dashboard',
@@ -81,7 +81,7 @@ scapy.sniff(prn=analyze_packet, store=0)`,
       {
         name: 'Log Analyzer',
         type: 'Automation',
-        status: 'complete',
+        status: 'active',
         desc: 'High-throughput log parsing engine that identifies anomalous patterns across syslog, auth.log, and web server logs. Supports custom rule definitions.',
         tags: ['Python', 'Regex', 'Bash', 'JSON'],
         link: '#',
